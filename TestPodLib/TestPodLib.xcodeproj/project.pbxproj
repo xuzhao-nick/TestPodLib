@@ -7,30 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BB1EB902784323B00E3A313 /* TestPodLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB1EB862784323B00E3A313 /* TestPodLib.framework */; };
-		0BB1EB952784323B00E3A313 /* TestPodLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1EB942784323B00E3A313 /* TestPodLibTests.m */; };
 		0BB1EB972784323B00E3A313 /* TestPodLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB1EB892784323B00E3A313 /* TestPodLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BB1EBA22784326100E3A313 /* TestPodLibService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB1EBA02784326100E3A313 /* TestPodLibService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BB1EBA32784326100E3A313 /* TestPodLibService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1EBA12784326100E3A313 /* TestPodLibService.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0BB1EB912784323B00E3A313 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0BB1EB7D2784323B00E3A313 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0BB1EB852784323B00E3A313;
-			remoteInfo = TestPodLib;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0BB1EB862784323B00E3A313 /* TestPodLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestPodLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB1EB892784323B00E3A313 /* TestPodLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodLib.h; sourceTree = "<group>"; };
 		0BB1EB8A2784323B00E3A313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BB1EB8F2784323B00E3A313 /* TestPodLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB1EB942784323B00E3A313 /* TestPodLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodLibTests.m; sourceTree = "<group>"; };
-		0BB1EB962784323B00E3A313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB1EBA02784326100E3A313 /* TestPodLibService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPodLibService.h; sourceTree = "<group>"; };
 		0BB1EBA12784326100E3A313 /* TestPodLibService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPodLibService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,14 +28,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BB1EB8C2784323B00E3A313 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BB1EB902784323B00E3A313 /* TestPodLib.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +35,6 @@
 			isa = PBXGroup;
 			children = (
 				0BB1EB882784323B00E3A313 /* TestPodLib */,
-				0BB1EB932784323B00E3A313 /* TestPodLibTests */,
 				0BB1EB872784323B00E3A313 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				0BB1EB862784323B00E3A313 /* TestPodLib.framework */,
-				0BB1EB8F2784323B00E3A313 /* TestPodLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,15 +56,6 @@
 				0BB1EBA12784326100E3A313 /* TestPodLibService.m */,
 			);
 			path = TestPodLib;
-			sourceTree = "<group>";
-		};
-		0BB1EB932784323B00E3A313 /* TestPodLibTests */ = {
-			isa = PBXGroup;
-			children = (
-				0BB1EB942784323B00E3A313 /* TestPodLibTests.m */,
-				0BB1EB962784323B00E3A313 /* Info.plist */,
-			);
-			path = TestPodLibTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,24 +91,6 @@
 			productReference = 0BB1EB862784323B00E3A313 /* TestPodLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0BB1EB8E2784323B00E3A313 /* TestPodLibTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BB1EB9D2784323B00E3A313 /* Build configuration list for PBXNativeTarget "TestPodLibTests" */;
-			buildPhases = (
-				0BB1EB8B2784323B00E3A313 /* Sources */,
-				0BB1EB8C2784323B00E3A313 /* Frameworks */,
-				0BB1EB8D2784323B00E3A313 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BB1EB922784323B00E3A313 /* PBXTargetDependency */,
-			);
-			name = TestPodLibTests;
-			productName = TestPodLibTests;
-			productReference = 0BB1EB8F2784323B00E3A313 /* TestPodLibTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,9 +100,6 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					0BB1EB852784323B00E3A313 = {
-						CreatedOnToolsVersion = 12.5;
-					};
-					0BB1EB8E2784323B00E3A313 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -173,20 +118,12 @@
 			projectRoot = "";
 			targets = (
 				0BB1EB852784323B00E3A313 /* TestPodLib */,
-				0BB1EB8E2784323B00E3A313 /* TestPodLibTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0BB1EB842784323B00E3A313 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0BB1EB8D2784323B00E3A313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,23 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BB1EB8B2784323B00E3A313 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BB1EB952784323B00E3A313 /* TestPodLibTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0BB1EB922784323B00E3A313 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0BB1EB852784323B00E3A313 /* TestPodLib */;
-			targetProxy = 0BB1EB912784323B00E3A313 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0BB1EB982784323B00E3A313 /* Debug */ = {
@@ -387,40 +308,6 @@
 			};
 			name = Release;
 		};
-		0BB1EB9E2784323B00E3A313 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YN64A2N7PW;
-				INFOPLIST_FILE = TestPodLibTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickxu.TestPodLibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0BB1EB9F2784323B00E3A313 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YN64A2N7PW;
-				INFOPLIST_FILE = TestPodLibTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickxu.TestPodLibTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,15 +325,6 @@
 			buildConfigurations = (
 				0BB1EB9B2784323B00E3A313 /* Debug */,
 				0BB1EB9C2784323B00E3A313 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0BB1EB9D2784323B00E3A313 /* Build configuration list for PBXNativeTarget "TestPodLibTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0BB1EB9E2784323B00E3A313 /* Debug */,
-				0BB1EB9F2784323B00E3A313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
