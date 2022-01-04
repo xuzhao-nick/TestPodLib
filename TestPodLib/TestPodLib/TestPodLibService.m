@@ -9,6 +9,6 @@
 
 @implementation TestPodLibService
 -(NSString *)getMessage {
-  return @"Test Pod Lib Service";
+  return @"Test Pod Lib Service version 1.0.2.";
 }
 @end
